@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Calificaciones</title>
+	
+</head>
+<body>
+	<main>
+		<h1 class="encabezado">Promedio de Calificaciones</h1>
+		<h2 id="texto_alumno">Alumno: <input id="alumno_nombre" placeholder="Nombre del alumno" /></h2>
+		<table class="tabla">
+			<tr>
+				<th class="tabla_conceptos">Concepto</th>
+				<th class="tabla_conceptos">Cantidad</th>
+				<th class="tabla_conceptos">Resultado</th>
+			</tr>
+			<tr>
+				<th class="tabla_conceptos">Asistencias</th>
+				<td class="tabla_cantidad"><input class="tabla_cantidad_input" type="text" /></td>
+				<td class="tabla_resultado">0</td>
+			</tr>
+			<tr>
+				<th class="tabla_conceptos">Disciplina</th>
+				<td class="tabla_cantidad"><input class="tabla_cantidad_input" type="text" /></td>
+				<td class="tabla_resultado">0</td>
+
+			</tr>
+			<tr>
+				<th class="tabla_conceptos">Puntualidad</th>
+				<td class="tabla_cantidad"><input class="tabla_cantidad_input" type="text" /></td>
+				<td class="tabla_resultado">0</td>
+
+			</tr>
+			<tr>
+				<th class="tabla_conceptos">Trabajos y tareas</th>
+				<td class="tabla_cantidad"><input class="tabla_cantidad_input" type="text" /></td>
+				<td class="tabla_resultado">0</td>
+
+			</tr>
+			<tr>
+				<th class="tabla_conceptos">Examen</th>
+				<td class="tabla_cantidad"><input class="tabla_cantidad_input" type="text" /></td>
+				<td class="tabla_resultado">0</td>
+
+			</tr>
+			<tr id="tabla_row_total">
+				<th class="tabla_conceptos" id="total">Total</th>
+				<td class="tabla_cantidad" id="total_cantidad"></td>
+				<td class="tabla_resultado" id="total_resultado">0</td>
+
+			</tr>
+			
+		</table>
+		<p class="p_condicional">
+			Si Cantidad es menor que 
+			 <input type="number" id="p_input_cantidad" placeholder="Num" />,
+			 Resultado es igual a 
+			<input type="number" id="p_input_resultado" placeholder="Num" />.
+			Si no, Resultado es 
+			<input type="number" id="p_input_resultado_negativo" placeholder="Num" />.
+		</p>
+		<button>Click</button>
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
