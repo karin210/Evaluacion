@@ -25,7 +25,7 @@ main {
 .tabla_conceptos {
 	border-bottom: 1px solid;
 	font-size: 2rem;
-}
+=}
 
 .cantidad_alumno, .cantidad_real{
 	border-bottom: 1px solid;
@@ -65,7 +65,7 @@ main {
 }
 
 button {
-	margin: 0 41%;
+	margin: 10px 41%;
 	font-size: 1.5rem;
 	background-color: rgba(82, 30, 11, 100%);
 	border-radius: 16px;
@@ -98,4 +98,28 @@ font-size: 2rem;
 .cantidad_real {
 	font-size: 1.5rem;
 	width: 40px;
+}
+
+@media (max-width: 757px) {
+
+	main {
+		width: 70%;
+
+	}
+
+	table {
+		width: 90%;
+	}
+
+	.encabezado {
+		font-size: 18px;
+	}
+
+	.tabla_conceptos, .tabla_cantidad_input, .cantidad_real, .cantidad_real_input, .tabla_resultado, #total, #total_resultado, button{
+		font-size: 15px;
+	}
+
+
+
+
 }
