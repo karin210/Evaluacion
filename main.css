@@ -103,7 +103,8 @@ font-size: 2rem;
 @media (max-width: 757px) {
 
 	main {
-		width: 70%;
+		margin-top: 150px;
+		width: 85%;
 
 	}
 
@@ -111,14 +112,22 @@ font-size: 2rem;
 		width: 90%;
 	}
 
+	tr {
+		margin: 50px inherit;
+	}
+
 	.encabezado {
-		font-size: 18px;
+		font-size: 17px;
 	}
 
 	.tabla_conceptos, .tabla_cantidad_input, .cantidad_real, .cantidad_real_input, .tabla_resultado, #total, #total_resultado, button{
 		font-size: 15px;
 	}
 
+
+.cantidad_real, .tabla_resultado, #total, #total_resultado, .tabla_conceptos{
+	padding: 8px;
+}
 
 
 
